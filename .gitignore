@@ -1076,3 +1076,4 @@ I have some suggestions to make this even better!
 *.dis
 # C/C++ binary extension file
 *.bin
+/.idea/.name

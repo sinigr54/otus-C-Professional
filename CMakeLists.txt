@@ -84,5 +84,5 @@ include(CPack)
 
 if (WITH_BOOST_TEST)
     enable_testing()
-    add_test(tests/tests.cpp tests)
+    add_test(tests_version tests)
 endif ()

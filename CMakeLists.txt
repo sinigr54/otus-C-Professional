@@ -35,7 +35,7 @@ if (WITH_TESTS)
     set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
     FetchContent_MakeAvailable(googletest)
 
-    add_executable(tests tests/tests.cpp)
+    add_executable(tests tests.cpp)
 
     target_link_libraries(
             tests
@@ -82,7 +82,7 @@ set(CPACK_PACKAGE_VERSION_PATCH "${PROJECT_VERSION_PATCH}")
 set(CPACK_PACKAGE_CONTACT example@example.com)
 include(CPack)
 
-if (WITH_BOOST_TEST)
+if (WITH_TESTS)
     enable_testing()
     add_test(tests_version tests)
 endif ()

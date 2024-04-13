@@ -6,3 +6,4 @@ set(PROJECT_VERSION 0.0.${PATCH_VERSION})
 project(cpp_otus_professional VERSION ${PROJECT_VERSION})
 
 add_subdirectory(homework_1)
+add_subdirectory(homework_2)
